@@ -40,5 +40,13 @@ int main(){
     m.erase("arushi");
     cout<< m.size()<<endl;
 
+    // iterator
+    unordered_map<string, int> :: iterator it = m.begin();
+
+    while(it != m.end()){
+        cout<< it->first << " "<<it->second << endl;
+        it++;
+    }
+
     return 0;
 }
