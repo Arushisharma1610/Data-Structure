@@ -47,6 +47,5 @@ int main(){
         cout<< it->first << " "<<it->second << endl;
         it++;
     }
-
     return 0;
 }
